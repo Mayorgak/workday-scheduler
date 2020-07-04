@@ -13,10 +13,15 @@ var workDay = {
 
 
  $(document).ready(function() {
-   if (!localStorage.getItem('workday')) {
+ console.log("Current Schedule: ", localStorage.getItem("workDay"));
+
+
+   if (!localStorage.getItem('workDay')) {
+
         updateCalendarTasks('workDay');
    } else {
-        updateCalendarTask(JSON.parse(localStorage.getItem('workday')));
+        
+        updateCalendarTasks(JSON.parse(localStorage.getItem('workDay')));
     }
  })
 
