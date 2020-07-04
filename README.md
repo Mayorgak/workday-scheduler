@@ -6,7 +6,7 @@
 ---
 
 
-# ![] (assets/images/workday.png)
+![alt text](https://github.com/Mayorgak/workday-scheduler/blob/master/assets/images/workday.png)
 ___
 
 # Built with 
