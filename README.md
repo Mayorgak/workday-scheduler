@@ -6,8 +6,8 @@ Workday scheduler was created to provide employees a way to manage their time ef
 
 - [x] Displays current date at the top of the calendar.
 - [x] Time blocks are color coded to indicate whether it is in the past,present, or future.
--[x] When you click on a time block you can enter an event and it saves to local storage.
--[x] When you refresh the page the event persists. 
+- [x] When you click on a time block you can enter an event and it saves to local storage.
+- [x] When you refresh the page the event persists. 
 
 
 ---
