@@ -30,12 +30,12 @@ for (var property in workDay){
     var timeString = $(timeID).text();
     var timeNumber = checkHours(timeString);
     if (timeNumber < presentHour) {
-        $(textEntry).addClass("past-hour");
+        $(textEntry).addClass("past");
     } else if (timeNumber > presentHour){
-        $(textEntry).addClass("future-hour");
+        $(textEntry).addClass("future");
 
     } else {  
-        $(textEntry).addClass("present-hour");
+        $(textEntry).addClass("present");
   }
     counter ++;
 }   
@@ -60,7 +60,7 @@ for (var property in workDay){
         break;
         case hour === moment().hour() :return "present";
         break;
-        case hour> moment().hour() :return "future";
+        case hour > moment().hour() :return "future";
         break;
     
 
