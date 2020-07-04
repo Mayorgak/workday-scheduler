@@ -71,13 +71,7 @@ for (var property in workDay){
 }
      
 
-     function loadCorrectDataset() {
-        result = localStorage.getItem('workDay')
-        return (result ? result : workDay);
-        
-}
 
-loadCorrectDataset();
 
    function initializeLocalStorage() {
         localStorage.setItem('workDay', JSON.stringify(workDay));
