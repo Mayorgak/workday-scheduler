@@ -1,5 +1,7 @@
 # Work Day Scheduler 
 
+## Purpose 
+
 
 ---
 
@@ -12,7 +14,7 @@ ___
  * CSS
  * Javascript
  * Bootstrap
- * Momement.js 
+ * Moment.js 
 
 ---
 
