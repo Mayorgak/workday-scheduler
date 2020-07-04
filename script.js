@@ -1,5 +1,5 @@
 var workDay = {
-  "8 AM": "",
+ /* "8 AM": "",
   "9 AM": "",
   "10 AM": "",
   "11 AM": "",
@@ -8,8 +8,10 @@ var workDay = {
   "2 PM": "",
   "3 PM": "",
   "4 PM": "",
-  "5 PM": "",
+  "5 PM": "",*/
 };
+
+//[{time:"9",note: "efgbs"}]
 
  $(document).ready(function() {
    if (!localStorage.getItem('workday')) {
