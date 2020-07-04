@@ -2,7 +2,6 @@
 
 ## Purpose 
 
-Provide a daily planner to create a schedule from 8 AM to 5 PM. 
 
 
 
